@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QRMainViewController.h
 //  QRCodeDemo
 //
 //  Created by c0ming on 10/30/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface QRMainViewController : UIViewController
 
 @end
-
