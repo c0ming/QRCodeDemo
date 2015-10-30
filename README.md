@@ -1,1 +1,1 @@
-QRCodeDemo http://c0ming.me/qr-code-scan/
+Blog Post: http://c0ming.me/qr-code-scan/
