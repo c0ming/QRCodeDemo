@@ -41,7 +41,7 @@
                                     <action selector="generateAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2v-bO-9WT"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foobar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yzW-t8-zCy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foobar.png" translatesAutoresizingMaskIntoConstraints="NO" id="yzW-t8-zCy">
                                 <rect key="frame" x="20" y="191" width="335" height="335"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -152,6 +152,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="foobar.jpg" width="320" height="320"/>
+        <image name="foobar.png" width="335" height="335"/>
     </resources>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A995307E1BE4E6E70070CA8E /* foobar.png in Resources */ = {isa = PBXBuildFile; fileRef = A995307D1BE4E6E70070CA8E /* foobar.png */; };
 		A9F28D421BE336C100FFEA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28D411BE336C100FFEA71 /* main.m */; };
 		A9F28D451BE336C100FFEA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28D441BE336C100FFEA71 /* AppDelegate.m */; };
 		A9F28D4B1BE336C100FFEA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F28D491BE336C100FFEA71 /* Main.storyboard */; };
@@ -15,10 +16,10 @@
 		A9F28D591BE3380100FFEA71 /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28D581BE3380100FFEA71 /* QRScanViewController.m */; };
 		A9F28D5C1BE3381300FFEA71 /* QRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28D5B1BE3381300FFEA71 /* QRMainViewController.m */; };
 		A9F28D5F1BE344CE00FFEA71 /* QRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28D5E1BE344CE00FFEA71 /* QRScanView.m */; };
-		A9F28D611BE3555F00FFEA71 /* foobar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9F28D601BE3555F00FFEA71 /* foobar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A995307D1BE4E6E70070CA8E /* foobar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foobar.png; sourceTree = "<group>"; };
 		A9F28D3D1BE336C100FFEA71 /* QRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F28D411BE336C100FFEA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9F28D431BE336C100FFEA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		A9F28D5B1BE3381300FFEA71 /* QRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMainViewController.m; sourceTree = "<group>"; };
 		A9F28D5D1BE344CE00FFEA71 /* QRScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanView.h; sourceTree = "<group>"; };
 		A9F28D5E1BE344CE00FFEA71 /* QRScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanView.m; sourceTree = "<group>"; };
-		A9F28D601BE3555F00FFEA71 /* foobar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foobar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 				A9F28D581BE3380100FFEA71 /* QRScanViewController.m */,
 				A9F28D5D1BE344CE00FFEA71 /* QRScanView.h */,
 				A9F28D5E1BE344CE00FFEA71 /* QRScanView.m */,
+				A995307D1BE4E6E70070CA8E /* foobar.png */,
 				A9F28D491BE336C100FFEA71 /* Main.storyboard */,
-				A9F28D601BE3555F00FFEA71 /* foobar.jpg */,
 				A9F28D4C1BE336C100FFEA71 /* Assets.xcassets */,
 				A9F28D4E1BE336C100FFEA71 /* LaunchScreen.storyboard */,
 				A9F28D511BE336C100FFEA71 /* Info.plist */,
@@ -152,7 +152,7 @@
 			files = (
 				A9F28D501BE336C100FFEA71 /* LaunchScreen.storyboard in Resources */,
 				A9F28D4D1BE336C100FFEA71 /* Assets.xcassets in Resources */,
-				A9F28D611BE3555F00FFEA71 /* foobar.jpg in Resources */,
+				A995307E1BE4E6E70070CA8E /* foobar.png in Resources */,
 				A9F28D4B1BE336C100FFEA71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +317,7 @@
 				A9F28D561BE336C100FFEA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
